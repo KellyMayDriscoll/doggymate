@@ -1,4 +1,6 @@
 # Locate a DoggyMate
+ ![logo](./logo.png)
+
 
 One Paragraph of project description goes here
 
