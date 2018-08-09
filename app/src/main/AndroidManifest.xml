@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dogymate">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <!-- Required permission to check licensing. -->
+    <uses-permission android:name="com.android.vending.CHECK_LICENSE" />
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-feature android:name="android.hardware.location.gps" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".SplashActivity"
+            android:label="@string/app_title"
+            android:theme="@style/AppThemeFullScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_title"/>
+        <activity
+            android:name="com.facebook.CustomTabActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="@string/fb_login_protocol_scheme" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".RegisterActivity"
+            android:label="@string/welcome"/>
+
+        <activity android:name=".ChoiceActivity"
+            android:label="@string/locate_a_doggymate"/>
+
+        <activity
+            android:name=".UploadActivity"
+            android:label="@string/who_is_your_doggy"
+            android:theme="@style/AppThemeFullScreen"/>
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".SearchActivity"
+            android:label="@string/title_activity_search" />
+
+        <activity android:name=".ChangeActivity"
+            android:label="@string/refine_your_search"
+            android:theme="@style/AppThemeFullScreen"/>
+
+        <activity android:name=".SettingsActivity"
+            android:label="@string/Settings_setting_txt"
+            android:theme="@style/AppTheme"/>
+
+        <activity android:name=".IntroduceActivity"
+            android:label="@string/introducing_dogis"
+            android:theme="@style/AppThemeFullScreen"/>
+
+        <activity android:name=".SetFiltersFirstTimeActivity"
+            android:label="@string/what_you_are_loking_for"
+            android:theme="@style/AppThemeFullScreen"/>
+
+        <activity android:name=".ProfileActivity"
+            android:label="@string/app_title"/>
+
+        <activity android:name=".LoginActivity"
+            android:label="@string/log_in"
+            android:theme="@style/AppThemeFullScreen"/>
+
+        <activity android:name=".Chat"
+            android:label="@string/app_title" />
+
+        <activity android:name=".RessetPasswordActivty"
+            android:theme="@style/AppThemeFullScreen"
+            android:label="@string/app_title"/>
+
+        <activity android:name=".MyChatsActivity"
+            android:label="@string/app_title"
+            android:theme="@style/AppTheme"/>
+
+        <activity
+            android:name=".AboutUsActivity"
+            android:label="@string/about_us"
+            android:theme="@style/AppThemeFullScreen"/>
+
+
+        <!-- [START firebase_service] -->
+        <service android:name=".fcm.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <!-- [END firebase_service] -->
+
+        <service
+            android:name=".fcm.MyJobService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.firebase.jobdispatcher.ACTION_EXECUTE" />
+            </intent-filter>
+        </service>
+
+        <!--
+     Set custom default icon. This is used when no icon is set for incoming notification messages.
+     See README(https://goo.gl/l4GJaQ) for more.
+        -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/ic_stat_notification" />
+        <!--
+             Set color used with incoming notification messages. This is used when no color is set for the incoming
+             notification message. See README(https://goo.gl/6BKBk7) for more.
+        -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/colorAccent" />
+    </application>
+
+</manifest>
