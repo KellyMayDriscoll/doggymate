@@ -1,0 +1,508 @@
+<resources>
+    <string name="app_name">DoggyMate</string>
+
+    <string name="default_notification_channel_id">doggy_notification_id</string>
+    <string name="LEGACY_SERVER_KEY">AIzaSyBH1ZqksiT4hxR-3n9zNvc2-BpA9raN_DQ</string>
+    <string name="authorizedEntity">831958409819</string>
+    <string name="scope">FCM</string>
+
+    <string name="app_title">Locate a DoggyMate</string>
+    <string name="Chat_now">Chat now</string>
+    <string name="desc">Image</string>
+    <string name="desc1">Image</string>
+    <string name="desc2">Image</string>
+    <string name="desc3">Image</string>
+    <string name="desc4">Image</string>
+    <string name="desc42">Image</string>
+    <string name="desc425">Image</string>
+    <string name="desc425232">Image</string>
+    <string name="desc5">Image</string>
+    <string name="tellus">Please tell us who you are</string>
+    <string name="email">Email</string>
+    <string name="pass">Password</string>
+    <string name="name">Name</string>
+    <string name="mob">Mobile</string>
+    <string name="register">Register</string>
+    <string name="lwf">Login with Facebook</string>
+    <string name="welcome">Welcome</string>
+    <string name="facebook_app_id">162618994428226</string>
+    <string name="fb_login_protocol_scheme">fb162618994428226</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="gps_txt">Please ensure your location services are enabled for GPS</string>
+    <string name="if_you_have_already_registered_click_here_to_log_in">If you have already registered,
+        click here to log in</string>
+    <string name="delete_your_doggy">Reset Doggy Details</string>
+    <string-array name="breed2">
+        <item>Any breed</item>
+        <item>Mixed breed</item>
+        <item>Affenpinscher</item>
+        <item>Afghan Hound</item>
+        <item>Airedale</item>
+        <item>Akita</item>
+        <item>Alabai(Central Asian Shepher ot Ovtcharka)</item>
+        <item>Alaskan Malaoldmute</item>
+        <item>Alsatian</item>
+        <item>American bulldog</item>
+        <item>American cocker spaniel</item>
+        <item>Amstaff(American Staffordshire Terrier)</item>
+        <item>Anatolian Shepherd Dog</item>
+        <item>Australian cattle dog</item>
+        <item>Australian Shepherd Dog</item>
+        <item>Azawakh</item>
+        <item>Basenji</item>
+        <item>Basset Hound</item>
+        <item>Beagle</item>
+        <item>Bearded collie</item>
+        <item>Bedlington terrier</item>
+        <item>Belgian Griffon(Griffon Bruxellois)</item>
+        <item>Belgian Shepher</item>
+        <item>Bernese Mountain Dog</item>
+        <item>Bichon Frisé</item>
+        <item>Biewer</item>
+        <item>Black Russian terrier</item>
+        <item>Bloodhound</item>
+        <item>Blue heeler</item>
+        <item>Boerboel</item>
+        <item>Boergreyhound(boerwindhond)</item>
+        <item>Border Collie</item>
+        <item>Border Terrier</item>
+        <item>Borzoi</item>
+        <item>Boston Terrier</item>
+        <item>Boxer</item>
+        <item>Bouvier des Flandres</item>
+        <item>Brazilian Pampiano</item>
+        <item>Brittany Pointer (or Spaniel)</item>
+        <item>Bulldog</item>
+        <item>Bullmastiff</item>
+        <item>Bull Terrier</item>
+        <item>Cairn Terrier</item>
+        <item>Cane Corso</item>
+        <item>Cardigan Welsh Corgi</item>
+        <item>Cavalier King Charles Spaniel</item>
+        <item>Central Asian Shepherd (Alabai)</item>
+        <item>Chesapeake Bay Retriever</item>
+        <item>Chihuahua</item>
+        <item>Chin - Japanese chin</item>
+        <item>Chinese crested</item>
+        <item>Chow chow</item>
+        <item>Clumber Spaniel</item>
+        <item>Cocker Spaniel</item>
+        <item>Collies: Bearded</item>
+        <item>Coonhound</item>
+        <item>Corgis:  Cardigan corgi   Pembroke corgi</item>
+        <item>Dachshund (Sausage dog or worshond)</item>
+        <item>Dalmatian</item>
+        <item>Dobermann</item>
+        <item>Dobermann Pinscher</item>
+        <item>Dogue de Bordeaux</item>
+        <item>English setter</item>
+        <item>Flat coated retriever</item>
+        <item>Fox terrier</item>
+        <item>French bulldog</item>
+        <item>French Poodle</item>
+        <item>German Shepherd Dog</item>
+        <item>German short haired Pointer</item>
+        <item>German wire haired pointer</item>
+        <item>Giant Schnauzer</item>
+        <item>Golden Retriever</item>
+        <item>Gordon setter</item>
+        <item>Great Dane</item>
+        <item>Greyhound</item>
+        <item>Griffon</item>
+        <item>Hungarian puli</item>
+        <item>Hungarian vizsla</item>
+        <item>Husky</item>
+        <item>Irish setter</item>
+        <item>Irish terrier</item>
+        <item>Irish Wolfhound</item>
+        <item>Italian Greyhound</item>
+        <item>Jack Russell Terrier</item>
+        <item>Japanese chin</item>
+        <item>Kerry Blue terrier</item>
+        <item>King Charles Spaniel (Cavalier)</item>
+        <item>Labrador</item>
+        <item>Lhasa Apso</item>
+        <item>Llewellin setter</item>
+        <item>Malamute - Alaskan Malamute</item>
+        <item>Maltese</item>
+        <item>Maltese poodle</item>
+        <item>Manchester terrier</item>
+        <item>Mastiff</item>
+        <item>Miniature Pinscher (Minpin)</item>
+        <item>Miniature Poodle</item>
+        <item>Miniature Schnauzer</item>
+        <item>Miniature Toy Pom - Pomeranian</item>
+        <item>Neapolitan Mastiff</item>
+        <item>Newfoundland</item>
+        <item>Norfolk Terrier</item>
+        <item>Old English Sheepdog</item>
+        <item>Ovtcharka (alabai)</item>
+        <item>Papillon</item>
+        <item>Pekingese</item>
+        <item>Pembroke corgi</item>
+        <item>Petit Basset Griffon Vendeen PBGV</item>
+        <item>Pharaoh Hound</item>
+        <item>Pinscher</item>
+        <item>Pitbull</item>
+        <item>Pointer</item>
+        <item>Pomeranian</item>
+        <item>Poodle miniature</item>
+        <item>Pug</item>
+        <item>Puli</item>
+        <item>Pyrenean Mountain Dogs</item>
+        <item>Pyrenean Sheep dogs</item>
+        <item>Red and white setter</item>
+        <item>Retriever</item>
+        <item>Rhodesian Ridgeback</item>
+        <item>Rottweiler</item>
+        <item>Rough collie</item>
+        <item>Saint Bernard</item>
+        <item>Saluki</item>
+        <item>Samoyed</item>
+        <item>Schipperkes</item>
+        <item>Schnauzer</item>
+        <item>Scottish deerhound</item>
+        <item>Scottish Terrier</item>
+        <item>Sealyham Terrier</item>
+        <item>Setter</item>
+        <item>Shar-pei</item>
+        <item>Shetland Sheepdog</item>
+        <item>Shiba Inu</item>
+        <item>Shih Tzu</item>
+        <item>Siberian Husky</item>
+        <item>Spaniel. American cocker Clumber</item>
+        <item>Spinone</item>
+        <item>Staffordshire Bull Terrier (Staffie)</item>
+        <item>Standard poodle</item>
+        <item>Standard Schnauzer</item>
+        <item>Toy Pom - Pomeranian</item>
+        <item>Toy Poodle</item>
+        <item>Tibetan Terrier</item>
+        <item>Vizla</item>
+        <item>Weimaraner</item>
+        <item>Welsh Corgi</item>
+        <item>Welsh Terrier</item>
+        <item>West Highland White Terrier</item>
+        <item>Whippet</item>
+        <item>White Swiss Shepherd</item>
+        <item>Wire haired dachshund</item>
+        <item>Wire haired fox terrier</item>
+        <item>Wire haired German Pointer</item>
+        <item>Yorkshire Terrier (Yorkie)</item>
+        <item>Ysterberger mastiff</item>
+    </string-array>
+    <string-array name="sex2">
+        <item>Any sex</item>
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string-array name="age2">
+        <item>Any age</item>
+        <item>Less than 1 year old</item>
+        <item>Between 1 and 2 years</item>
+        <item>Between 2 and 3 years</item>
+        <item>Between 3 and 4 years</item>
+        <item>Between 4 and 5 years</item>
+        <item>Between 5 and 6 years</item>
+        <item>Between 6 and 7 years</item>
+        <item>Between 7 and 8 years</item>
+        <item>Between 8 and 9 years</item>
+        <item>Between 9 and 10 years</item>
+        <item>More than 10 years</item>
+    </string-array>
+    <string-array name="Spayed2">
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+    <string-array name="frequency">
+        <item>once off</item>
+        <item>regular</item>
+        <item>unsure</item>
+    </string-array>
+    <string-array name="host">
+        <item>home</item>
+        <item>away</item>
+        <item>both</item>
+    </string-array>
+    <string-array name="distance">
+        <item>1km</item>
+        <item>2km</item>
+        <item>5km</item>
+        <item>10km</item>
+        <item>More than 10km</item>
+    </string-array>
+    <string-array name="Spayed">
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+    <string-array name="age">
+        <item>Less than 1 year</item>
+        <item>Between 1 and 2 years</item>
+        <item>Between 2 and 3 years</item>
+        <item>Between 3 and 4 years</item>
+        <item>Between 4 and 5 years</item>
+        <item>Between 5 and 6 years</item>
+        <item>Between 6 and 7 years</item>
+        <item>Between 7 and 8 years</item>
+        <item>Between 8 and 9 years</item>
+        <item>Between 9 and 10 years</item>
+        <item>More than 10 years</item>
+    </string-array>
+    <string-array name="character">
+        <item>Affectionate</item>
+        <item>Calm</item>
+        <item>Dog friendly</item>
+        <item>Easygoing</item>
+        <item>Dominant</item>
+        <item>High energy</item>
+        <item>High intelligence</item>
+        <item>High obedience</item>
+        <item>Highly sociable</item>
+        <item>Kid friendly</item>
+        <item>Low energy</item>
+        <item>Playful</item>
+        <item>Stranger friendly</item>
+        <item>Submissive</item>
+        <item>Tendency to Bark/howl</item>
+        <item>Tolerant</item>
+        <item>Vigorous</item>
+    </string-array>
+    <string-array name="breed">
+        <item>Mixed breed</item>
+        <item>Affenpinscher</item>
+        <item>Afghan Hound</item>
+        <item>Airedale</item>
+        <item>Akita</item>
+        <item>Alabai(Central Asian Shepher ot Ovtcharka)</item>
+        <item>Alaskan Malaoldmute</item>
+        <item>Alsatian</item>
+        <item>American bulldog</item>
+        <item>American cocker spaniel</item>
+        <item>Amstaff(American Staffordshire Terrier)</item>
+        <item>Anatolian Shepherd Dog</item>
+        <item>Australian cattle dog</item>
+        <item>Australian Shepherd Dog</item>
+        <item>Azawakh</item>
+        <item>Basenji</item>
+        <item>Basset Hound</item>
+        <item>Beagle</item>
+        <item>Bearded collie</item>
+        <item>Bedlington terrier</item>
+        <item>Belgian Griffon(Griffon Bruxellois)</item>
+        <item>Belgian Shepher</item>
+        <item>Bernese Mountain Dog</item>
+        <item>Bichon Frisé</item>
+        <item>Biewer</item>
+        <item>Black Russian terrier</item>
+        <item>Bloodhound</item>
+        <item>Blue heeler</item>
+        <item>Boerboel</item>
+        <item>Boergreyhound(boerwindhond)</item>
+        <item>Border Collie</item>
+        <item>Border Terrier</item>
+        <item>Borzoi</item>
+        <item>Boston Terrier</item>
+        <item>Boxer</item>
+        <item>Bouvier des Flandres</item>
+        <item>Brazilian Pampiano</item>
+        <item>Brittany Pointer (or Spaniel)</item>
+        <item>Bulldog</item>
+        <item>Bullmastiff</item>
+        <item>Bull Terrier</item>
+        <item>Cairn Terrier</item>
+        <item>Cane Corso</item>
+        <item>Cardigan Welsh Corgi</item>
+        <item>Cavalier King Charles Spaniel</item>
+        <item>Central Asian Shepherd (Alabai)</item>
+        <item>Chesapeake Bay Retriever</item>
+        <item>Chihuahua</item>
+        <item>Chin - Japanese chin</item>
+        <item>Chinese crested</item>
+        <item>Chow chow</item>
+        <item>Clumber Spaniel</item>
+        <item>Cocker Spaniel</item>
+        <item>Collies: Bearded</item>
+        <item>Coonhound</item>
+        <item>Corgis:  Cardigan corgi   Pembroke corgi</item>
+        <item>Dachshund (Sausage dog or worshond)</item>
+        <item>Dalmatian</item>
+        <item>Dobermann</item>
+        <item>Dobermann Pinscher</item>
+        <item>Dogue de Bordeaux</item>
+        <item>English setter</item>
+        <item>Flat coated retriever</item>
+        <item>Fox terrier</item>
+        <item>French bulldog</item>
+        <item>French Poodle</item>
+        <item>German Shepherd Dog</item>
+        <item>German short haired Pointer</item>
+        <item>German wire haired pointer</item>
+        <item>Giant Schnauzer</item>
+        <item>Golden Retriever</item>
+        <item>Gordon setter</item>
+        <item>Great Dane</item>
+        <item>Greyhound</item>
+        <item>Griffon</item>
+        <item>Hungarian puli</item>
+        <item>Hungarian vizsla</item>
+        <item>Husky</item>
+        <item>Irish setter</item>
+        <item>Irish terrier</item>
+        <item>Irish Wolfhound</item>
+        <item>Italian Greyhound</item>
+        <item>Jack Russell Terrier</item>
+        <item>Japanese chin</item>
+        <item>Kerry Blue terrier</item>
+        <item>King Charles Spaniel (Cavalier)</item>
+        <item>Labrador</item>
+        <item>Lhasa Apso</item>
+        <item>Llewellin setter</item>
+        <item>Malamute - Alaskan Malamute</item>
+        <item>Maltese</item>
+        <item>Maltese poodle</item>
+        <item>Manchester terrier</item>
+        <item>Mastiff</item>
+        <item>Miniature Pinscher (Minpin)</item>
+        <item>Miniature Poodle</item>
+        <item>Miniature Schnauzer</item>
+        <item>Miniature Toy Pom - Pomeranian</item>
+        <item>Neapolitan Mastiff</item>
+        <item>Newfoundland</item>
+        <item>Norfolk Terrier</item>
+        <item>Old English Sheepdog</item>
+        <item>Ovtcharka (alabai)</item>
+        <item>Papillon</item>
+        <item>Pekingese</item>
+        <item>Pembroke corgi</item>
+        <item>Petit Basset Griffon Vendeen PBGV</item>
+        <item>Pharaoh Hound</item>
+        <item>Pinscher</item>
+        <item>Pitbull</item>
+        <item>Pointer</item>
+        <item>Pomeranian</item>
+        <item>Poodle miniature</item>
+        <item>Pug</item>
+        <item>Puli</item>
+        <item>Pyrenean Mountain Dogs</item>
+        <item>Pyrenean Sheep dogs</item>
+        <item>Red and white setter</item>
+        <item>Retriever</item>
+        <item>Rhodesian Ridgeback</item>
+        <item>Rottweiler</item>
+        <item>Rough collie</item>
+        <item>Saint Bernard</item>
+        <item>Saluki</item>
+        <item>Samoyed</item>
+        <item>Schipperkes</item>
+        <item>Schnauzer</item>
+        <item>Scottish deerhound</item>
+        <item>Scottish Terrier</item>
+        <item>Sealyham Terrier</item>
+        <item>Setter</item>
+        <item>Shar-pei</item>
+        <item>Shetland Sheepdog</item>
+        <item>Shiba Inu</item>
+        <item>Shih Tzu</item>
+        <item>Siberian Husky</item>
+        <item>Spaniel. American cocker Clumber</item>
+        <item>Spinone</item>
+        <item>Staffordshire Bull Terrier (Staffie)</item>
+        <item>Standard poodle</item>
+        <item>Standard Schnauzer</item>
+        <item>Toy Pom - Pomeranian</item>
+        <item>Toy Poodle</item>
+        <item>Tibetan Terrier</item>
+        <item>Vizla</item>
+        <item>Weimaraner</item>
+        <item>Welsh Corgi</item>
+        <item>Welsh Terrier</item>
+        <item>West Highland White Terrier</item>
+        <item>Whippet</item>
+        <item>White Swiss Shepherd</item>
+        <item>Wire haired dachshund</item>
+        <item>Wire haired fox terrier</item>
+        <item>Wire haired German Pointer</item>
+        <item>Yorkshire Terrier (Yorkie)</item>
+        <item>Ysterberger mastiff</item>
+    </string-array>
+    <string-array name="sex">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string name="title_activity_search">Map</string>
+    <string name="about_us">About us</string>
+    <string name="locate_a_doggymate">Locate a DoggyMate</string>
+    <string name="introducing_dogs">Introducing dogs</string>
+    <string name="upload_doggy">Chat inbox</string>
+    <string name="doggy_search">Doggy search</string>
+    <string name="sd">Submit</string>
+    <string name="who_is_your_doggy">Upload Doggy</string>
+    <string name="nejm">Name</string>
+    <string name="ejdy">Age</string>
+    <string name="sfd">Breed</string>
+    <string name="fdsfsd">Sex</string>
+    <string name="fsdfsf">Character</string>
+    <string name="dsdsa">About</string>
+    <string name="dssasa">Image</string>
+    <string name="as">Settings</string>
+    <string name="sadadasdad">sadsfsd</string>
+    <string name="Settings_setting_txt">Settings</string>
+    <string name="Update_settinggs_txt">Update your account</string>
+    <string name="name_settings_txt">Name</string>
+    <string name="email_settings_txt">Email</string>
+    <string name="Mobile_settings_txt">Mobile</string>
+    <string name="password_settings_txt">Password</string>
+    <string name="dyd">Delete your doggy</string>
+    <string name="x">Name</string>
+    <string name="y">About</string>
+    <string name="Thrree_dots">Dots</string>
+    <string name="yavrsi">Yavrsi</string>
+    <string name="resset_your_passwor_d">Reset your password</string>
+    <string name="introducing_dogis">Introducing Dogs</string>
+    <string name="introcuxetexst">If you have a dog and a new one will be entering or visiting your home, there are things you can do to ensure that the meeting goes off without a hitch. If you know that both dogs are very social with a variety of other dogs, the meeting should be easy. However, some dogs don’t get out and mix with other dogs that much, or may have only had one or two dog friends in their lives. These dogs may seem to have better social skills than they actually do, so introducing them to new dogs may require more care and effort. Another factor to consider is whether or not the dogs have been spayed or neutered; if not, the meeting may be more difficult. If you are uncertain how one (or both) of the dogs will react, be cautious. ​ First, plan to have the dogs meet on neutral ground. Choose a place where neither dog is likely to feel territorial. Even your dog’s favourite park is not necessarily a good spot, unless it is a dog park (since dogs are often used to meeting other dogs there). The dogs could casually meet while you are on a shopping trip. If your dog has a history of difficulty getting along with other dogs, Locate-a-DoggyMate might not be right for you. When the meeting occurs, have each dog on lead, each with a calm, relaxed adult handler. Keep the leads loose, since tension on the leash might communicate to the dogs that you are fearful or anxious about their meeting, which will in turn make them more fearful and anxious. Walk the dogs side by side with a safe distance between the dogs. Then, cross paths (still maintaining that distance) and allow the dogs to smell where the other has walked. If either of the dogs barks, snaps and lunges toward the other, consider reaching out to a certified professional dog trainer or behaviour consultant to teach you how to do the Look at That game to help the dogs feel calm and happy around each other before proceeding to the next stage of introduction. ​ Next, let the dogs meet. As the dogs approach each other, watch their body language closely, paying attention to the entire body. The dogs may need to do a little posturing or make a little noise, but if you don’t know how to tell the difference between dogs getting to know each other and dogs who don’t like each other, have someone there who does. If the dogs have shown no signs of hostility toward each other up to this point, take them to an enclosed area, drop their leashes, step back and give them space to get to know each other. We have a tendency to micro-manage these interactions, but in general it’s best if we allow the dogs to work it out with minimal interference. Humans hovering and getting too involved can be frustrating to the dogs, which can make them tense and spoil the interaction. For the most part, dogs in this situation respond well to verbal feedback from humans. For example, if the dogs are getting too tense around each other, saying something in a soothing tone of voice (such as “It’s OK, guys, cool your jets”) can help them to take it down a notch, shake off and start fresh. If one dog is getting too overbearing and the other isn’t correcting her, we can often help out by saying something like “Hey, knock it off!” If the dogs do shake off their tension and engage with each other in polite, appropriate ways, we can reward them for those behaviours and encourage more of them by speaking in a happy tone (“Good dogs! Well done!”). In most cases, that kind of verbal guidance is all the interference they need from us. We must only step in and physically separate them when they are becoming too excited and cannot give themselves a break, or when it becomes clear that their relationship is headed for conflict. ​ Here are some general body language signs to look for to get a general idea of where the interaction is headed: If they stiffen their bodies and stare into each other’s eyes with their hair up and their teeth bared, they probably aren’t going to become fast friends. If they lunge at each other and try to fight, separate them and don’t try further introductions without help from a certified professional behaviour consultant. Some dogs cannot safely interact with other animals and therefore should be the only pet in the home. Most of these dogs can be taught to ignore other animals while out in public, but they may never be able to safely interact with them. Be wary of nose-to-nose greetings. This type of greeting is very stressful for many dogs, particularly those who are fearful or feel threatened by eye contact. For these dogs, nose-to-nose greetings may cause them to make a bad decision and bite out of fear and defensiveness. When dogs first look into each other’s eyes, the appropriate behavior is to give a glance and then look away. A hard stare into another dog’s eyes is a challenge — not a friendly way to greet. If the dogs practice inappropriate behavior like stiffening or staring, try to get the dogs to calm down by offering verbal feedback. If that doesn’t work, you can pick up their leashes and walk them around until they shake off and loosen up, then try again. If the dogs rush up to each other — with or without the hair raised at their shoulders and at the base of the tail — and engage in loud, raucous play, stay alert. This type of play can often escalate to fighting if the dogs do not know how to calm themselves down. If one dog pursues the other continually and ignores the other dog’s corrections (e.g., lip curls, growls or air snaps) or requests to take a break, it can turn from play into bullying. These kinds of corrections are frequently mistaken for aggression, but they are actually part of healthy, normal dog communication. Dogs should be able to correct each other when one is being inappropriate; likewise, they should be able to pay attention to another dog’s corrections. It is also important for dogs to take turns being the chaser and the one being chased, and to take breaks when they get too amped up. If they are not able to do that for themselves, pick up their leashes and walk them around until they shake off and loosen up, then try again. If the dogs try to play by pawing or play-bowing with their legs stretched out in front of them, they may want to be best buddies. Allow them to get to know each other, and give praise for each nice interaction. If the dogs seem fine with each other, take them home, preferably in separate crates or cars so that the close quarters of a vehicle won’t create unnecessary tension between them. At home, let them settle in, but make sure you’ve put away your dog’s toys, bones and food bowls first, since these items may be sources of conflict. Whenever you feed the dogs, and certainly if you’re going to offer high-value items like Kongs or chews, it may be best to separate them while they eat. Once the dogs are good friends, they may be more willing to chomp side by side on food and high-value items.To introduce a puppy to a dog, use the same procedure as above. If the puppy is under six months old, both the dog and the puppy may need frequent breaks from each other. Some adult dogs will quickly lose patience with puppy energy. Finally, if you are not confident or comfortable at any point, make sure you take action and ask for help. ​</string>
+    <string name="abouttext">I am Kelly, and I am a massive dog lover. ​ When I got my baby Boston Terrier, Joy, one of our other dogs was not very happy to have a new member of the household. Joy had to be under constant supervision and couldn\'t be in contact with the other dogs on her own. Not wanting to leave her alone for whole days where I was at work, I posted on the Boston Terrier Facebook group to see if there was anyone in the area who also had a lonely only dog and wanted company. Well that was the best thing to ever happen to Joy, and me. We found the most perfect home-away-from-home and Joy made her forever best friend, Cassie. ​ After constantly seeing people on Facebook looking for playdates, day care, and general doggy support, I decided to build an app to help dog owners find other dogs in the area. The vision is to have a happy doggy community of thousands of dogs and dog owners supporting and helping each out in the interests of happy, healthy, sociable doggies. ​ Please note that dog owners have to take responsibility for the introductions and the safety of their doggies. ​ You can find us on Facebook at https://www.facebook.com/LocateaDoggyMate/ Or email me at mrskellydriscoll@gmail.com</string>
+    <string name="spayed_neutral">Spayed/Neutered</string>
+    <string name="choose">Choose</string>
+
+    <string name="log_in">Log in</string>
+    <string name="logina">Log in</string>
+    <string name="emailahahaha">Email</string>
+    <string name="passwordoooooo">Password</string>
+    <string name="logince">Log in</string>
+    <string name="Name_login_txt">Name</string>
+    <string name="doggy_s_name">Doggy\'s name</string>
+    <string name="age">Age</string>
+    <string name="breed">Breed</string>
+    <string name="sex">Sex</string>
+    <string name="aska">Character</string>
+    <string name="spayed">Spayed</string>
+    <string name="vaccinated">Vaccinated</string>
+    <string name="owner_s_name">Owner\'s name</string>
+    <string name="ok">About</string>
+    <string name="asasasa">Email</string>
+    <string name="resset_your_email">Resset your email</string>
+    <string name="reset_your_password">Reset your password</string>
+    <string name="search_again">Search again</string>
+    <string name="dssdsdsd">Owner</string>
+    <string name="sss">Distance</string>
+    <string name="hostic">Host</string>
+    <string name="frequencyc">Frequency</string>
+    <string name="find_doggies_near_you">Find doggies near you</string>
+    <string name="sasasasasa">Name</string>
+    <string name="sasaas">Confirm your name</string>
+    <string name="spayed2">Spayed</string>
+    <string name="refine_your_search">Refine your Search</string>
+    <string name="Search">Search</string>
+    <string name="sex2">Sex</string>
+    <string name="breed2">Breed</string>
+    <string name="age2">Age</string>
+    <string name="title_activity_about_us">AboutUsActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="what_you_are_loking_for">What are you looking for?</string>
+    <string name="you_have_unread_message">You have unread messages</string>
+    <string name="connection_error">Error in communication with the server, please retry.</string>
+    <string name="retry">Retry</string>
+    <string name="close">Close</string>
+    <string name="okay">Okay</string>
+    <string name="license_error">You are not licensed to use this app. Please buy this app in Google Play Store</string>
+</resources>
