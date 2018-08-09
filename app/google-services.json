@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "831958409819",
+    "firebase_url": "https://doggymate-87a20.firebaseio.com",
+    "project_id": "doggymate-87a20",
+    "storage_bucket": "doggymate-87a20.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:831958409819:android:a2747f634bf6dfbf",
+        "android_client_info": {
+          "package_name": "com.dogymate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "831958409819-t95f4hr6gr2jrl0fssp5dn09q5em2i1e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dogymate",
+            "certificate_hash": "f6d874e5dfe354ff9cf2ffed2eb45474b9598f13"
+          }
+        },
+        {
+          "client_id": "831958409819-grp2kaoerqj8m8ucapc3ioi26njmaqaj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkzg1EkBfiBDYbgu07haxRK3Nc4QLdtS8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "831958409819-grp2kaoerqj8m8ucapc3ioi26njmaqaj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
